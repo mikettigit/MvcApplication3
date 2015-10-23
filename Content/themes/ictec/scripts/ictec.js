@@ -13,70 +13,71 @@ $(window).scroll(function () {
 
 $(document).ready(function() {
 
-    //Gallery <br />
-    $(".gallery").find("br").remove();
+	//Gallery <br />
+	$(".gallery").find("br").remove();
 
-    //fancybox
-    $(".fancybox").fancybox({padding: 0, maxWidth: 700, maxHeight: 560, autoSize: true, closeClick: false, openEffect: "elastic", openSpeed: 300, closeEffect: "elastic", closeSpeed: 300});
+	//fancybox
+	$(".fancybox").fancybox({padding: 0, maxWidth: 700, maxHeight: 560, autoSize: true, closeClick: false, openEffect: "elastic", openSpeed: 300, closeEffect: "elastic", closeSpeed: 300});
 	
-    //MenuControl
-    $(".moveTop").click(function() {
-        goToByScroll('ICTec'); return false;
-    });
-    $(".sidebar .menu-header ul li:nth-child(1) a").click(function() {
-        goToByScroll('vertical'); return false;
-    });
-    $(".sidebar .menu-header ul li:nth-child(2) a").click(function() {
-        goToByScroll('roller'); return false;
-    });
-    $(".sidebar .menu-header ul li:nth-child(3) a").click(function() {
-        goToByScroll('horizontal'); return false;
-    });
-    $(".sidebar .menu-header ul li:nth-child(4) a").click(function() {
-        goToByScroll('premium'); return false;
-    });
-    $(".sidebar .menu-header ul li:nth-child(5) a").click(function () {
-        window.open("http://www.natpotolki.ru/", '_blank');
-        return false;
-    });
-    $(".sidebar .menu-header ul li:nth-child(6) a").click(function () {
-        goToByScroll('services'); return false;
-    });
-    $(".sidebar .menu-header ul li:nth-child(7) a").click(function () {
-        goToByScroll('about'); return false;
-    });
-    $(".sidebar .menu-header ul li:nth-child(8) a").click(function () {
-        goToByScroll('contacts'); return false;
-    });
-    
-    $(".spoiler_button").click(function(){
-        var parent = $("." + $(this).attr("id"));
-        if (parent.is(":visible")) {
-            parent.hide("slow");
-            $(this).html("развернуть...");
-        }
-        else
-        {
-            parent.show("slow");
-            $(this).html("свернуть...");
-        }
-    })
+	//MenuControl
+	$(".moveTop").click(function() {
+		goToByScroll('ICTec'); return false;
+	});
+	$(".sidebar .menu-header ul li:nth-child(1) a").click(function() {
+		goToByScroll('vertical'); return false;
+	});
+	$(".sidebar .menu-header ul li:nth-child(2) a").click(function() {
+		goToByScroll('roller'); return false;
+	});
+	$(".sidebar .menu-header ul li:nth-child(3) a").click(function() {
+	    goToByScroll('horizontal'); return false;
+	});
+	$(".sidebar .menu-header ul li:nth-child(4) a").click(function() {
+	    goToByScroll('premium'); return false;
+	});
+	$(".sidebar .menu-header ul li:nth-child(5) a").click(function () {
+	    window.open("http://www.natpotolki.ru/", '_blank');
+	    return false;
+	});
+	$(".sidebar .menu-header ul li:nth-child(6) a").click(function () {
+	    goToByScroll('services'); return false;
+	});
+	$(".sidebar .menu-header ul li:nth-child(7) a").click(function () {
+	    goToByScroll('about'); return false;
+	});
+	$(".sidebar .menu-header ul li:nth-child(8) a").click(function () {
+	    goToByScroll('contacts'); return false;
+	});
 
-    $('.multiple-items-vert').slick({
-        infinite: true,
-        slidesToShow: 5,
-        slidesToScroll: 1
-    });
 
-    $('.multiple-items-hor').slick({
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1
-    });
+	$(".spoiler_button").click(function(){
+	    var parent = $("." + $(this).attr("id"));
+	    if (parent.is(":visible")) {
+	        parent.hide("slow");
+	        $(this).html("развернуть...");
+	    }
+	    else
+	    {
+	        parent.show("slow");
+	        $(this).html("свернуть...");
+	    }
+	})
 
-    $('.multiple-items div img').click(function () {
-        $.fancybox($(this).clone());
-    });
+ 	$('.multiple-items-vert').slick({
+        	infinite: true,
+	        slidesToShow: 5,
+        	slidesToScroll: 1
+	    });
+	
+	    $('.multiple-items-hor').slick({
+        	infinite: true,
+	        slidesToShow: 3,
+	        slidesToScroll: 1
+	    });
+
+	    $('.multiple-items div img').click(function () {
+        	$.fancybox($(this).clone());
+	    });
 
 });
 
