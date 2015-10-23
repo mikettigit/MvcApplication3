@@ -1,0 +1,27 @@
+User-agent: Yandex
+Disallow: /App_Data/
+Disallow: /App_Start/
+Disallow: /bin/
+Disallow: /Controllers/
+Disallow: /Models/
+Disallow: /obj/
+Disallow: /Properties/
+Disallow: /Resources/
+Disallow: /Views/
+Disallow: /Helpers/
+Disallow: /aspnet_client/
+Host: demyr.ru
+
+User-agent: *
+Disallow: /App_Data/
+Disallow: /App_Start/
+Disallow: /bin/
+Disallow: /Controllers/
+Disallow: /Models/
+Disallow: /obj/
+Disallow: /Properties/
+Disallow: /Resources/
+Disallow: /Views/
+Disallow: /Helpers/
+Disallow: /aspnet_client/
+Sitemap: http://demyr.ru/sitemap.xml
