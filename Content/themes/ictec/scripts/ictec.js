@@ -75,8 +75,8 @@ $(document).ready(function() {
 	        slidesToScroll: 1
 	    });
 
-	    $('.multiple-items div img').click(function () {
-        	$.fancybox($(this).clone());
+	    $('.multiple-items div img, .SingleImage').click(function () {
+	        $.fancybox($(this).clone().css("height", "").css("max-height", "800px"));
 	    });
 
 });
