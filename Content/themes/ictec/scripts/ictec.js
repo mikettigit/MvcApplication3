@@ -79,5 +79,14 @@ $(document).ready(function() {
 	        $.fancybox($(this).clone().css("height", "").css("max-height", "800px"));
 	    });
 
+
+	    $(".akcia3").hover(
+            function () { $(this).find('.dropdown').stop().show(300); },
+            function () { $(this).find('.dropdown').stop().hide(0); }
+        );
+
+	    $(".akcia3 .dropdown").each(function () {
+	        $(this).css("width", $(this).parent().find(".title").width() + 10);
+	    });
 });
 
