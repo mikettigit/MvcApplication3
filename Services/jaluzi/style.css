@@ -1,0 +1,74 @@
+.tabs {
+	position: relative;
+	margin: 0 0 0 40px;
+	width:1050px;
+	height:1100px;
+}
+.tabs label {
+	color: #555;
+	cursor: pointer;
+	display: block;
+	float: left;
+	width: 170px;
+    height: 160px;
+	line-height: 120px;
+	position: relative;
+	top: 2px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.tabs input {
+	position: absolute;
+	left: -9999px;
+}
+
+#tab_1:checked  ~ #tab_l1,
+#tab_2:checked  ~ #tab_l2,
+#tab_3:checked  ~ #tab_l3,
+#tab_4:checked  ~ #tab_l4,
+#tab_5:checked  ~ #tab_l5 {
+	background: #D5F1FF;
+	z-index: 3;
+}
+
+.tabs_cont {
+	background: #fff;
+	position: relative;
+	z-index: 2;
+	height: 765px;
+	margin-left: -15px;
+}
+.tabs_cont > div {
+	position: absolute;
+	left: -9999px;
+	top: 0;
+	opacity: 0;
+	-moz-transition: opacity .5s ease-in-out;
+	-webkit-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;
+}
+#tab_1:checked ~ .tabs_cont #tab_c1,
+#tab_2:checked ~ .tabs_cont #tab_c2,
+#tab_3:checked ~ .tabs_cont #tab_c3 ,
+#tab_4:checked ~ .tabs_cont #tab_c4,
+#tab_5:checked ~ .tabs_cont #tab_c5 {
+	position: static;
+	left: 0;
+	opacity: 1;
+}
+.wiks input{
+	width: 250px;
+    height: 30px;
+    font-size: 18px;
+    padding: 2px 10px;
+    border-radius: 5px;
+    border: 1px solid #d6d6d6;
+}
+.baks{
+    color: #fff;
+    background: #1f2122;
+    height: 40px!important;
+    padding: 5px!important;
+    width: 170px!important;
+}
