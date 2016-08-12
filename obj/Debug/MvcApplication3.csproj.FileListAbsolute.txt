@@ -91,7 +91,6 @@ E:\Работа\Сайты\MvcApplication3\MvcApplication3\bin\System.Net.Http.d
 E:\Работа\Сайты\MvcApplication3\MvcApplication3\bin\System.Net.Http.WebRequest.dll
 E:\Работа\Сайты\MvcApplication3\MvcApplication3\bin\System.Net.Http.xml
 E:\Работа\Сайты\MvcApplication3\MvcApplication3\bin\System.Net.Http.WebRequest.xml
-E:\Работа\Сайты\MvcApplication3\MvcApplication3\obj\Debug\MvcApplication3.csprojResolveAssemblyReference.cache
 C:\Trial\__ЗАПАС\Фриланс\Сайты\MvcApplication3\MvcApplication3\bin\MvcApplication3.dll.config
 C:\Trial\__ЗАПАС\Фриланс\Сайты\MvcApplication3\MvcApplication3\bin\MvcApplication3.dll
 C:\Trial\__ЗАПАС\Фриланс\Сайты\MvcApplication3\MvcApplication3\bin\MvcApplication3.pdb

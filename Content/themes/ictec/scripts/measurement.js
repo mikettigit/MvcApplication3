@@ -45,6 +45,36 @@
             }
         }
 
+        clientEmailField = thisButton.parent().find("[name=clientEmail]");
+        clientEmailField.removeClass("error");
+        emailChars = "_-.@~qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM0123456789";
+        emailString = clientEmailField.val();
+        if (emailString.length > 0) {
+            if (emailString.length < 6) {
+                clientEmailField.addClass("error");
+                isError = true;
+            }
+            else {
+                i = 0;
+                HasAt = false;
+                while (ch = emailString.substr(i, 1)) {
+                    if (emailChars.indexOf(ch) == -1) {
+                        clientEmailField.addClass("error");
+                        isError = true;
+                        break;
+                    }
+                    if (ch == "@") {
+                        HasAt = true;
+                    }
+                    i++;
+                }
+                if (!HasAt) {
+                    clientEmailField.addClass("error");
+                    isError = true;
+                }
+            }
+        }
+
         if (!isError) {
 
             systemString =  thisButton.parent().find("[name=clientSystem]").val();
@@ -57,7 +87,8 @@
             {
                 system: systemString,
                 name: nameString,
-                phone: phoneString
+                phone: phoneString,
+                email: emailString
             },
             function (data) {
                 alert(data.Message);
