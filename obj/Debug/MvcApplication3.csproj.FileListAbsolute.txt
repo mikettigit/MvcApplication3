@@ -115,3 +115,4 @@ C:\Trial\__ЗАПАС\Фриланс\Сайты\MvcApplication3\MvcApplication3\
 C:\Trial\__ЗАПАС\Фриланс\Сайты\MvcApplication3\MvcApplication3\obj\Debug\MvcApplication3.csproj.GenerateResource.Cache
 C:\Trial\__ЗАПАС\Фриланс\Сайты\MvcApplication3\MvcApplication3\obj\Debug\MvcApplication3.dll
 C:\Trial\__ЗАПАС\Фриланс\Сайты\MvcApplication3\MvcApplication3\obj\Debug\MvcApplication3.pdb
+E:\Работа\Сайты\MvcApplication3\MvcApplication3\obj\Debug\MvcApplication3.csprojResolveAssemblyReference.cache
