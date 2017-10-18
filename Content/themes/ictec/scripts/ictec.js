@@ -23,32 +23,32 @@ $(document).ready(function() {
 	$(".moveTop").click(function() {
 		goToByScroll('ICTec'); return false;
 	});
-	$(".sidebar .menu-header ul li:nth-child(1) a").click(function() {
+	$(".sidebar .menu-header ul li#menu-item-1 a").click(function () {
 		goToByScroll('vertical'); return false;
 	});
-	$(".sidebar .menu-header ul li:nth-child(2) a").click(function() {
+	$(".sidebar .menu-header ul li#menu-item-2 a").click(function () {
 		goToByScroll('roller'); return false;
 	});
-	$(".sidebar .menu-header ul li:nth-child(3) a").click(function() {
+	$(".sidebar .menu-header ul li#menu-item-3 a").click(function () {
 	    goToByScroll('horizontal'); return false;
 	});
-	$(".sidebar .menu-header ul li:nth-child(4) a").click(function() {
+	$(".sidebar .menu-header ul li#menu-item-4 a").click(function () {
 	    goToByScroll('premium'); return false;
 	});
-	$(".sidebar .menu-header ul li:nth-child(5) a").click(function () {
+	$(".sidebar .menu-header ul li#menu-item-5 a").click(function () {
 	    goToByScroll('rollets'); return false;
 	});
-	$(".sidebar .menu-header ul li:nth-child(6) a").click(function () {
+	$(".sidebar .menu-header ul li#menu-item-9 a").click(function () {
 	    window.open("http://www.natpotolki.ru/", '_blank');
 	    return false;
 	});
-	$(".sidebar .menu-header ul li:nth-child(7) a").click(function () {
+	$(".sidebar .menu-header ul li#menu-item-7 a").click(function () {
 	    goToByScroll('services'); return false;
 	});
-	$(".sidebar .menu-header ul li:nth-child(8) a").click(function () {
+	$(".sidebar .menu-header ul li#menu-item-8 a").click(function () {
 	    goToByScroll('about'); return false;
 	});
-	$(".sidebar .menu-header ul li:nth-child(9) a").click(function () {
+	$(".sidebar .menu-header ul li#menu-item-10 a").click(function () {
 	    goToByScroll('contacts'); return false;
 	});
 

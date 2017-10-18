@@ -54,7 +54,7 @@ body {margin: 0; padding: 0; font-size: 14px; font-family: Arial, Helvetica, san
 .banner {background: url(images/bg/zhalyuzi7.jpg) 50% 0 no-repeat; background-size: cover; height: 500px;}
 .banner_section {background: url(images/bg/sklad1.jpg) 50% 0 no-repeat; background-size: cover; height: 400px; margin: 0 -20px 0 -260px; border-top: 5px solid #ddd; border-bottom: 5px solid #ddd; line-height: 1000px; overflow: hidden;}
 .banner_hover{position: absolute; margin-top: 40px; //right: 20px; padding: 40px; width:100%;//width: 350px; height: 100px; text-align:center; //border-radius: 10px; //background-color: #52a2b6; //opacity: 0.9;}
-    .banner_hover h1 {font: 70px Arial, sans-serif; line-height: 70px; color: #ffffff; font-weight: bold; text-shadow:  -1px -1px 0 #52a2b6,  1px -1px 0 #52a2b6,  -1px 1px 0 #52a2b6,  1px 1px 0 #52a2b6; //position: absolute; }
+    .banner_hover h1 {font: 50px Arial, sans-serif; line-height: 70px; color: #ffffff; font-weight: bold; text-shadow:  -1px -1px 0 #52a2b6,  1px -1px 0 #52a2b6,  -1px 1px 0 #52a2b6,  1px 1px 0 #52a2b6; //position: absolute; }
     .banner_hover h1 span{font: 30px Arial, sans-serif; line-height: 30px; color: #ffffff; font-weight: bold; display:block; //position: absolute; //right: 25px;}
 .banner_akcia{position: absolute; margin-top: 40px;}
 
