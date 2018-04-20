@@ -273,3 +273,17 @@ dl dd {float: none; width: 100%;}
 }
 
 .akcia3 .dropdown .dropdown_content b {color:#7f9510;}
+
+
+.measurementAskDiv {
+    display:inline-block; 
+    float:right;
+}
+
+.measurementAskPrice {
+    display: block; 
+    text-align: right; 
+    color: #52a2b6; 
+    margin-bottom: 5px;
+    font-size: 24px;
+}
